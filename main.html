@@ -11,7 +11,7 @@
             padding: 0;
         }
         nav {
-            background-color: #333;
+            background-color: black;
             padding: 1em;
         }
         nav ul {
@@ -21,7 +21,7 @@
         }
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 40px;
         }
         nav ul li a {
             color: white;
@@ -31,15 +31,15 @@
             text-align: center;
             margin-top: 20px;
         }
-        .image-gallery {
+        .gallary-image {
             display: flex;
             justify-content: center;
             gap: 10px;
-            padding: 20px;
+            padding: 10px;
         }
-        .image-gallery img {
-            border: 2px solid #ddd;
-            border-radius: 4px;
+        .gallary-image img {
+            border: 5px solid #333;
+            border-radius: 10px;
         }
 	</style>
 </head>
@@ -47,16 +47,16 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<div class = "navbar">
+	<nav style = "text-align: center;">
 		<ul>
-			<a href = "#">Home</a>
-			<a href = "#">About us</a>
-			<a href = "#">Contact us</a>
+			<li><a href = "#">Home</a></li>
+			<li><a href = "#">About us</a></li>
+			<li><a href = "#">Contact us</a></li>
 		</ul>
-	</div>
+	</nav>
 
 		<h1>3 Random images</h1>
-		<div clas = "gallary-image">
+		<div class = "gallary-image">
 		<img src = "https://picsum.photos/id/123/200/300" alt = "Random image">
 		<img src = "https://picsum.photos/id/124/200/300" alt = "Random image">
 		<img src = "https://picsum.photos/id/125/200/300" alt = "Random image">
